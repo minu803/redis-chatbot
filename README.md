@@ -149,3 +149,16 @@ MONITOR
 ```
 
 This will output the logs of every command processed by the Redis server in real-time, allowing you to observe the interactions and operations happening within Redis as you use the chatbot.
+
+### IV. Use of GenAI
+
+1. **Problem with `read_message()` Function:**
+   I encountered difficulties in figuring out the `read_message()` function. While I had some understanding of the `get_message()` method from the Redis library, the printed output was often the object itself, not the actual message. I understood that the right way to access the message involved utilizing dictionary keys and values, but the exact implementation was unclear. Here, GenAI assisted in navigating this challenge, helping me access messages in the correct format.
+
+2. **Formatting Output Messages:**
+   GenAI assisted in formatting the `print()` messages upon task completion. This assistance provided a clearer, more understandable output, making it easier to visualize the actions and results of the chatbot operations.
+
+3. **Designing the `main()` Function:**
+   Furthermore, GenAI offered insights into designing the `main()` function, particularly regarding the operation of functions within a while loop. This guidance contributed to a more efficient and effective main function design.
+
+While GenAI was utilized in these specific areas, substantial work and thought processing were also my own contributions, ensuring a balanced and informed use of generative artificial intelligence in the development of this chatbot.
